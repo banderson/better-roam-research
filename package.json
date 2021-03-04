@@ -13,7 +13,7 @@
 
   "scripts": {
     "start": "concurrently 'yarn sass' 'yarn serve'",
-    "serve": "serve ./src -p 7676",
+    "serve": "serve ./ -p 7676",
     "sass": "sass .:. --no-source-map --watch"
   }
 }

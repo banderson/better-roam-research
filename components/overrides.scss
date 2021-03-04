@@ -1,3 +1,7 @@
+@use "sass:color";
+
+$chart-yellow: #f5c78e;
+
 .rm-page-ref--tag {
   display: inline-block;
   color: var(--color-olaf);
@@ -28,6 +32,6 @@
 }
 
 .rm-highlight {
-  background-color: rgba(var(--color-chart-yellow), 0.3);
+  background-color: color.change($chart-yellow, $lightness: 30%, $alpha: 0.5);
 }
 
