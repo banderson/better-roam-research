@@ -1,6 +1,6 @@
 @use "sass:color";
 
-$chart-yellow: #f5c78e;
+$chart-yellow: #FFFBCC;
 
 .rm-page-ref--tag {
   display: inline-block;
@@ -32,6 +32,6 @@ $chart-yellow: #f5c78e;
 }
 
 .rm-highlight {
-  background-color: color.change($chart-yellow, $lightness: 30%, $alpha: 0.5);
+  background-color: color.change($chart-yellow, $alpha: 0.9);
 }
 
